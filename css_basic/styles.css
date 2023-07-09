@@ -1,7 +1,7 @@
-body, main {display: flex;}
-body {flex-direction: column;
+
+body {display: flex; flex-direction: column;
 border-style: solid;}
-main {flex-direction: row;
+main { display: flex; flex-direction: row;
     flex: auto;
     border-style: solid; flex: auto;
     padding: 10px;}
