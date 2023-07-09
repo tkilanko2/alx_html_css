@@ -1,3 +1,4 @@
 body, main {display: flex;}
 body {flex-direction: column;}
-main {flex-direction: row;}
+main {flex-direction: row;
+    flex: auto;}
