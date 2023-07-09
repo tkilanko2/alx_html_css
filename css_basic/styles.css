@@ -12,7 +12,14 @@ aside {flex: 1;
 overflow-y: auto;}
 footer {display: flex;
         flex-direction: row;}
-#my_table {border: 1px;}
+#my_table {border: 1px; display: flexbox; }
 .article1 {color: aquamarine;}
 .article2 {background-color: darkolivegreen;
     flex: auto; overflow-wrap: normal;}
+header {display: flex; justify-content: space-between;}
+ul {display: flex;  }
+li {border: 1px solid blue;margin: 10px;}
+.logo {justify-content: center; border: 1px solid blue ;display: flex; padding: 5px;
+    justify-content: center; width: 100px; align-items: center;}
+   table, th, td{border: 1px solid blue;}
+   tr {color: brown;}
