@@ -1,10 +1,18 @@
 body, main {display: flex;}
-body {flex-direction: column;}
+body {flex-direction: column;
+border-style: solid;}
 main {flex-direction: row;
-    flex: auto;}
+    flex: auto;
+    border-style: solid; flex: auto;
+    padding: 10px;}
 article {flex: 2;
-    overflow-y: auto;}
+    overflow-y: auto;
+    border-style: solid;}
 aside {flex: 1;
 overflow-y: auto;}
 footer {display: flex;
         flex-direction: row;}
+#my_table {border: 1px;}
+.article1 {color: aquamarine;}
+.article2 {background-color: darkolivegreen;
+    flex: auto; overflow-wrap: normal;}
